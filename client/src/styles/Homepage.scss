@@ -1,0 +1,83 @@
+.homepage {
+  display: grid;
+  grid-template-columns: 20vw auto;
+  background-color: #000;
+  color: #fff;
+}
+
+.sidebar {
+  position: absolute;
+  overflow-y: scroll;
+  top: 27%;
+  bottom: -10%;
+  width: 20vw;
+  text-align: center;
+}
+
+.home-main {
+  grid-column-start: 2;
+}
+
+.baemail-header {
+  color: yellow;
+}
+
+.contact-cast {
+  color: limegreen;
+  text-align: center;
+}
+
+.film-search-btn {
+  height: 4vh;
+  width: 6vw;
+}
+
+.film-search {
+  width: 20vw;
+  height: 4vh;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 2% 2%;
+}
+
+.test-vid {
+  margin: 5px;
+  border: linen 2px solid;
+  padding: 50px;
+}
+
+.lt-sidebar {
+  max-width: 270px;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 1266px) {
+  .sidebar {
+    top: 17%;
+  }
+}
+/* Mobile Styles */
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+  .home-main {
+    grid-column-start: 0;
+  }
+  .homepage {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hide-sm {
+    display: none;
+  }
+}

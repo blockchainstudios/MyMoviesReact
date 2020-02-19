@@ -1,0 +1,19 @@
+.development-card {
+  padding: 1rem;
+  border: #ccc 1px solid;
+  margin: 0.7rem 1rem;
+  border-radius: 3px;
+  background: url('../assets/background/darkred-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dev-img {
+  width: 50vw;
+  height: auto;
+}
+
+.dev-header {
+  text-align: left;
+  text-transform: uppercase;
+}

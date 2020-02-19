@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://Jordan:H6fr8@@nP2AvGh8@cluster0-pw58m.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "CraigTedJordanMyMoviesSecret",
+  "awsSecret": "frtH9HAjOHwqXkgwqtiGMHe/yVTccNCY2p0VJR4G",
+  "awsAccessKeyId": "AKIAY4C26MJV56NQ2LSW"
+}

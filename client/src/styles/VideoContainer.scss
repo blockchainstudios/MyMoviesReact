@@ -1,0 +1,34 @@
+.video-container {
+  margin: 2px;
+  //   border: linen 1px solid;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.lt-video-container {
+  padding-top: 3rem;
+}
+
+.lt-main-background {
+  background: url('../assets/background/darkred-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .video-container {
+    margin: 2px;
+    padding: 0.1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 1079px) {
+  // .lt-video-container {
+  //   width: 730px;
+  //   height: 540px;
+  //}
+}

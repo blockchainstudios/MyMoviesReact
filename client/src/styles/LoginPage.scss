@@ -1,0 +1,19 @@
+.login-card {
+  padding: 1rem;
+  margin: 0.7rem 30vw;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 9px 0px;
+  border-radius: 3px;
+  background: #0b3b64;
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    padding: 1rem;
+    margin: 0.7rem 20vw;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 9px 0px;
+    border-radius: 3px;
+    background: #0b3b64;
+  }
+}
